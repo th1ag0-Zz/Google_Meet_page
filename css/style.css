@@ -19,7 +19,6 @@ header {
 
 .logo {
     display: flex;
-    flex: 1;
     height: 48px;
 }
 
@@ -64,14 +63,17 @@ header .icons .icons1 {
 
 .help {
     background-image: url('../images/help.svg');
+    cursor: pointer;
 }
 
 .feedback {
     background-image: url('../images/feedback.svg');
+    cursor: pointer;
 }
 
 .config{
     background-image: url('../images/config.svg');
+    cursor: pointer;
 }
 
 header .icons .icons2 {
@@ -87,6 +89,7 @@ header .icons .icons2 {
     height: 24px;
     background-image: url('../images/apps-24px.svg');
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .conta {
@@ -95,6 +98,7 @@ header .icons .icons2 {
     background-image: url('../images/conta.svg');
     background-repeat: no-repeat;
     background-size: contain;
+    cursor: pointer;
 }
 
 main {
